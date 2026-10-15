@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "EUR_HKD",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_EURHKD_EURHKD_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_EURHKD_EURHKD_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2884,
+  "first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 11.09838,
+    "high": 11.12204,
+    "low": 11.08238,
+    "close": 11.09087,
+    "volume": 1052
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 8.723,
+    "high": 8.75138,
+    "low": 8.71667,
+    "close": 8.73548,
+    "volume": 29035
+  },
+  "csv_file": "OANDA_EURHKD_EURHKD_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2884,
+  "csv_first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 11.09838,
+    "high": 11.12204,
+    "low": 11.08238,
+    "close": 11.09087,
+    "volume": 1052
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 8.723,
+    "high": 8.75138,
+    "low": 8.71667,
+    "close": 8.73548,
+    "volume": 29035
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T23:39:32.000000000Z",
+  "generated_at": "2026-10-15T23:39:32.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2004-05-31T21:00:00Z",
+        "to": "2018-02-07T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2018-02-07T21:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
