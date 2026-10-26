@@ -6,7 +6,7 @@
   "chunk_end": "2026-10-31",
   "parquet_file": "OANDA_EURHKD_EURHKD_1_2026-10-01_to_2026-10-31.parquet",
   "data_file": "OANDA_EURHKD_EURHKD_1_2026-10-01_to_2026-10-31.parquet",
-  "row_count": 24064,
+  "row_count": 24525,
   "first_candle": {
     "time": 1790812800,
     "Time": "2026-10-01T00:00:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 101
   },
   "last_candle": {
-    "time": 1792789140,
-    "Time": "2026-10-23T20:59:00.000000000Z",
-    "open": 8.78646,
-    "high": 8.78646,
-    "low": 8.78607,
-    "close": 8.78608,
-    "volume": 5
+    "time": 1792989900,
+    "Time": "2026-10-26T04:45:00.000000000Z",
+    "open": 8.80174,
+    "high": 8.80209,
+    "low": 8.8017,
+    "close": 8.80192,
+    "volume": 14
   },
   "csv_file": "OANDA_EURHKD_EURHKD_1_2026-10-01_to_2026-10-31.parquet",
-  "csv_row_count": 24064,
+  "csv_row_count": 24525,
   "csv_first_candle": {
     "time": 1790812800,
     "Time": "2026-10-01T00:00:00.000000000Z",
@@ -37,17 +37,17 @@
     "volume": 101
   },
   "csv_last_candle": {
-    "time": 1792789140,
-    "Time": "2026-10-23T20:59:00.000000000Z",
-    "open": 8.78646,
-    "high": 8.78646,
-    "low": 8.78607,
-    "close": 8.78608,
-    "volume": 5
+    "time": 1792989900,
+    "Time": "2026-10-26T04:45:00.000000000Z",
+    "open": 8.80174,
+    "high": 8.80209,
+    "low": 8.8017,
+    "close": 8.80192,
+    "volume": 14
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-10-24T04:29:31.000000000Z",
-  "generated_at": "2026-10-24T04:29:31.000000000Z",
+  "verified_at": "2026-10-26T04:46:35.000000000Z",
+  "generated_at": "2026-10-26T04:46:35.000000000Z",
   "download_request": {
     "total_api_blocks_in_run": 1,
     "chunk_api_blocks": 1,
@@ -55,8 +55,8 @@
     "permanent_error_details": [],
     "all_block_outcomes": [
       {
-        "from": "2026-10-23T04:33:00Z",
-        "to": "2026-10-23T21:00:00Z",
+        "from": "2026-10-23T20:54:00Z",
+        "to": "2026-10-26T04:46:00Z",
         "code": 200,
         "msg": "OK"
       }
